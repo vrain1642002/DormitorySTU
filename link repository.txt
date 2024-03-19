@@ -1,3 +1,3 @@
 Backend:https://github.com/vrain1642002/Domitory-backendapi
-Frontend_student:https://github.com/vrain1642002/DomitorySTU-frontend-student-
-Frontend_admin:https://github.com/vrain1642002/DormitorySTU-frontend-admin
+Frontend_student:https://github.com/vrain1642002/Dormiotry-frontend-student-
+Frontend_ADMIN:https://github.com/vrain1642002/Dormitory-frontend-ADMIN-
