@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.29, for Win64 (x86_64)
 --
--- Host: localhost    Database: dormitory
+-- Host: 127.0.0.1    Database: dormitory
 -- ------------------------------------------------------
 -- Server version	8.0.29
 
@@ -25,9 +25,10 @@ DROP TABLE IF EXISTS `attendance_list`;
 CREATE TABLE `attendance_list` (
   `id` int NOT NULL AUTO_INCREMENT,
   `create_date` date DEFAULT NULL,
-  `note` varchar(255) DEFAULT NULL,
-  `reason` varchar(255) DEFAULT NULL,
   `admin_id` int DEFAULT NULL,
+  `number_student` int DEFAULT NULL,
+  `status` int DEFAULT NULL,
+  `absentstudents` int DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FKqggfjnuacdda5jxd05uwtm7v7` (`admin_id`),
   CONSTRAINT `FKqggfjnuacdda5jxd05uwtm7v7` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`id`)
@@ -52,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-03-19 11:27:57
+-- Dump completed on 2024-04-28 17:52:33

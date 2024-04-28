@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.29, for Win64 (x86_64)
 --
--- Host: localhost    Database: dormitory
+-- Host: 127.0.0.1    Database: dormitory
 -- ------------------------------------------------------
 -- Server version	8.0.29
 
@@ -30,12 +30,13 @@ CREATE TABLE `contract` (
   `student_id` int NOT NULL,
   `total_price` float DEFAULT NULL,
   `room_type` varchar(255) DEFAULT NULL,
+  `prioritize` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FKfkgtuyof3hl2puktmr0rhn7p4` (`sesmester_id`),
   KEY `FK14c8jlug1v4bjjut2qm9k1oa2` (`student_id`),
   CONSTRAINT `FK14c8jlug1v4bjjut2qm9k1oa2` FOREIGN KEY (`student_id`) REFERENCES `student` (`id`),
   CONSTRAINT `FKfkgtuyof3hl2puktmr0rhn7p4` FOREIGN KEY (`sesmester_id`) REFERENCES `sesmester` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -44,6 +45,7 @@ CREATE TABLE `contract` (
 
 LOCK TABLES `contract` WRITE;
 /*!40000 ALTER TABLE `contract` DISABLE KEYS */;
+INSERT INTO `contract` VALUES (15,101,1,1,1,1400000,'L1',NULL),(17,101,1,0,2,2100000,'L1',NULL),(18,201,1,0,3,2100000,'L1',NULL);
 /*!40000 ALTER TABLE `contract` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -56,4 +58,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-03-19 11:27:57
+-- Dump completed on 2024-04-28 17:52:32

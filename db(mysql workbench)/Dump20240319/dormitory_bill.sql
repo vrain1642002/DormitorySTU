@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.29, for Win64 (x86_64)
 --
--- Host: localhost    Database: dormitory
+-- Host: 127.0.0.1    Database: dormitory
 -- ------------------------------------------------------
 -- Server version	8.0.29
 
@@ -27,10 +27,8 @@ CREATE TABLE `bill` (
   `admin_id` int DEFAULT NULL,
   `created_date` date DEFAULT NULL,
   `final_electricity` int DEFAULT NULL,
-  `final_water` int DEFAULT NULL,
   `id` int NOT NULL AUTO_INCREMENT,
   `initial_electricity` int DEFAULT NULL,
-  `initial_water` int DEFAULT NULL,
   `number_room` int DEFAULT NULL,
   `price` float DEFAULT NULL,
   `status` bit(1) DEFAULT NULL,
@@ -40,7 +38,7 @@ CREATE TABLE `bill` (
   KEY `FKrorkiarpyt5mhwlhajxvriep3` (`admin2_id`),
   CONSTRAINT `FK1ft3wfisa77yirsb2818ckycm` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`id`),
   CONSTRAINT `FKrorkiarpyt5mhwlhajxvriep3` FOREIGN KEY (`admin2_id`) REFERENCES `admin` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -49,6 +47,7 @@ CREATE TABLE `bill` (
 
 LOCK TABLES `bill` WRITE;
 /*!40000 ALTER TABLE `bill` DISABLE KEYS */;
+INSERT INTO `bill` VALUES (NULL,1,'2024-04-20',100,2,0,101,172800,_binary '','L1'),(1,1,'2024-04-28',300,3,0,201,518400,_binary '\0','L1');
 /*!40000 ALTER TABLE `bill` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -61,4 +60,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-03-19 11:27:58
+-- Dump completed on 2024-04-28 17:52:31

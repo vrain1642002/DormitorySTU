@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.29, for Win64 (x86_64)
 --
--- Host: localhost    Database: dormitory
+-- Host: 127.0.0.1    Database: dormitory
 -- ------------------------------------------------------
 -- Server version	8.0.29
 
@@ -27,7 +27,7 @@ CREATE TABLE `users` (
   `password` varchar(255) DEFAULT NULL,
   `username` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'$2a$10$Fy46qH1qHYveGDzUGSN4yu019QnstveZ53bxrBl3IOIzgO3CDFxC2','ADMIN1'),(2,'$2a$10$EY/.9d4GO1wxK4zMIsIlqu4hD9bsqzt7n7O9RhWBXgFwLvTGlpv2G','DH52006823'),(3,'$2a$10$DFlaqcmM7/ZLDgqTb4KLTO.rL.GPS3x1y17RE89.CtOsDbA8M/a9.','hung');
+INSERT INTO `users` VALUES (1,'$2a$10$Fy46qH1qHYveGDzUGSN4yu019QnstveZ53bxrBl3IOIzgO3CDFxC2','ADMIN1'),(2,'$2a$10$EY/.9d4GO1wxK4zMIsIlqu4hD9bsqzt7n7O9RhWBXgFwLvTGlpv2G','DH52006823'),(3,'$2a$10$DFlaqcmM7/ZLDgqTb4KLTO.rL.GPS3x1y17RE89.CtOsDbA8M/a9.','DH52306823'),(4,'$2a$10$QG51gVqrm9y1elviQuuD0Om05QS1x4lxZOEXxAr1BeyXgqUQZTTuW','DH92300939');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-03-19 11:27:58
+-- Dump completed on 2024-04-28 17:52:33

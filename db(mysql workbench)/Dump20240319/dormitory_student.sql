@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.29, for Win64 (x86_64)
 --
--- Host: localhost    Database: dormitory
+-- Host: 127.0.0.1    Database: dormitory
 -- ------------------------------------------------------
 -- Server version	8.0.29
 
@@ -23,7 +23,6 @@ DROP TABLE IF EXISTS `student`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `student` (
-  `attendance_list_id` int DEFAULT NULL,
   `birthday` date DEFAULT NULL,
   `gender` int DEFAULT NULL,
   `id` int NOT NULL AUTO_INCREMENT,
@@ -36,13 +35,12 @@ CREATE TABLE `student` (
   `name` varchar(255) DEFAULT NULL,
   `number_student` varchar(255) DEFAULT NULL,
   `phone` varchar(255) DEFAULT NULL,
+  `prioritize` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `UK_bkix9btnoi1n917ll7bplkvg5` (`user_id`),
   UNIQUE KEY `UK_rdsdut9esprkwrmv2v57oqc10` (`number_student`),
-  KEY `FKqel6qv4gbk3ob3cesi4qa51re` (`attendance_list_id`),
-  CONSTRAINT `FKk0thg920a3xk3v59yjbsatw1l` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`),
-  CONSTRAINT `FKqel6qv4gbk3ob3cesi4qa51re` FOREIGN KEY (`attendance_list_id`) REFERENCES `attendance_list` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  CONSTRAINT `FKk0thg920a3xk3v59yjbsatw1l` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -51,7 +49,7 @@ CREATE TABLE `student` (
 
 LOCK TABLES `student` WRITE;
 /*!40000 ALTER TABLE `student` DISABLE KEYS */;
-INSERT INTO `student` VALUES (NULL,'2002-05-27',1,1,0,2,'Phú Yên','D20_TH05','dh52006823@student.stu.edu.vn\r\n','CNTT','Quốc Việt','DH52006823','0866715211'),(NULL,'1999-03-03',1,2,0,3,'Hồ Chí Minh','D20_TH05','hung.tranvan@stu.edu.vn','CNTT','Trần Văn Hùng','hung','0866715111');
+INSERT INTO `student` VALUES ('2002-05-27',1,1,0,2,'Phú Yên','D20_TH05','dh52006823@student.stu.edu.vn\r\n','CNTT','Quốc Việt','DH52006823','0866715211','Bình Thường'),('2005-03-03',1,2,0,3,'Hồ Chí Minh','D23_TH05','nhqviet.dth.tuyan@gmail.com','CNTT','Nguyễn Văn Nam','DH52306823','0866715222','Chính Sách'),('2005-04-10',0,3,0,4,'ĐỒNG NAI','D23_TK3DH3','DH92300939@student.stu.edu.vn','DESIGN','CHÂU THANH QUỲNH KIM','DH92300939','0866751211','Bình Thường');
 /*!40000 ALTER TABLE `student` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -64,4 +62,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-03-19 11:27:57
+-- Dump completed on 2024-04-28 17:52:32

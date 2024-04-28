@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.29, for Win64 (x86_64)
 --
--- Host: localhost    Database: dormitory
+-- Host: 127.0.0.1    Database: dormitory
 -- ------------------------------------------------------
 -- Server version	8.0.29
 
@@ -24,7 +24,6 @@ DROP TABLE IF EXISTS `sesmester`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `sesmester` (
   `end_date` date NOT NULL,
-  `holiday_week` int DEFAULT NULL,
   `id` int NOT NULL AUTO_INCREMENT,
   `registration_end_date` date NOT NULL,
   `registration_start_date` date NOT NULL,
@@ -42,7 +41,7 @@ CREATE TABLE `sesmester` (
 
 LOCK TABLES `sesmester` WRITE;
 /*!40000 ALTER TABLE `sesmester` DISABLE KEYS */;
-INSERT INTO `sesmester` VALUES ('2024-05-30',0,1,'2024-03-25','2024-03-01',2,'2024-04-01',_binary '','2024-2025');
+INSERT INTO `sesmester` VALUES ('2024-07-30',1,'2024-04-30','2024-03-10',2,'2024-04-01',_binary '','2024-2025');
 /*!40000 ALTER TABLE `sesmester` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-03-19 11:27:58
+-- Dump completed on 2024-04-28 17:52:33
