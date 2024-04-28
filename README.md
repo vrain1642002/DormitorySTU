@@ -9,7 +9,5 @@ Xem danh sách và chỉnh sửa trạng thái hợp đồng,xem và tạo danh 
 
 LINK:
 Backend:https://github.com/vrain1642002/Domitory-backendapi
-Frontend_student:https://github.com/vrain1642002/Dormiotry-frontend-student-
-Frontend_ADMIN:https://github.com/vrain1642002/Dormitory-frontend-
 
 
