@@ -1,3 +1,4 @@
+
 STUDENT:
 Các chức năng:
 Xem danh sách phòng,đăng kí phòng,thanh toán phí lưu trú,hóa đơn điện,gửi phản hồi ,nhận thông báo qua web và email.
@@ -5,3 +6,10 @@ Xem danh sách phòng,đăng kí phòng,thanh toán phí lưu trú,hóa đơn đ
 ADMIN
 Các chức năng:
 Xem danh sách và chỉnh sửa trạng thái hợp đồng,xem và tạo danh sách phòng,xem và tạo hóa đơn điển,nhận phản hồi và trả lời.
+
+LINK:
+Backend:https://github.com/vrain1642002/Domitory-backendapi
+Frontend_student:https://github.com/vrain1642002/Dormiotry-frontend-student-
+Frontend_ADMIN:https://github.com/vrain1642002/Dormitory-frontend-
+
+
