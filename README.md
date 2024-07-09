@@ -1,12 +1,13 @@
-Địa chỉ website(STUDENT):
-https://dormiotry-frontend-student-production.up.railway.app/
-Tk:hung && pass:123456
-Các chức năng:
-Thông tin,thêm loại phòng,phòng,danh sách sinh viên đang lưu trú.
 
-Địa chỉ website(ADMIN):
-https://dormitory-frontend-admin-production.up.railway.app/
-Tk:ADMIN1 && pass:123456
+STUDENT:
 Các chức năng:
-Tài khoản,xem danh sách loại phòng,đăng kí phòng sẽ gửi mail thông
-báo,thanh toán chuyển khoản.
+Xem danh sách phòng,đăng kí phòng,thanh toán phí lưu trú,hóa đơn điện,gửi phản hồi ,nhận thông báo qua web và email.
+
+ADMIN
+Các chức năng:
+Xem danh sách và chỉnh sửa trạng thái hợp đồng,xem và tạo danh sách phòng,xem và tạo hóa đơn điển,nhận phản hồi và trả lời.
+
+LINK:
+Backend:https://github.com/vrain1642002/Domitory-backendapi
+
+
