@@ -12,6 +12,6 @@ Link ADMIN(TK:ADMIN1 && Pass:123456)
 
 http://frontend-ktxstuadmin.s3-website-ap-southeast-2.amazonaws.com/
 
-Link demo:https://drive.google.com/file/d/1-LGFE3C40XBFZpVR92c_XizUW6RCOUfo/view?usp=sharing
+Link demo:https://drive.google.com/file/d/109ysf6oIPT0MZvLHy96pXflHxe31tYbE/view?usp=sharing
 
 Link github backend:https://github.com/vrain1642002/Domitory-backendapi
