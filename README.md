@@ -7,11 +7,9 @@ ADMIN
 Các chức năng:
 Xem danh sách và chỉnh sửa trạng thái hợp đồng,xem và tạo danh sách phòng,xem và tạo hóa đơn điển,nhận phản hồi và trả lời.
 
-LINK:
-Backend:https://github.com/vrain1642002/Domitory-backendapi
 
 
-<<<<<<< HEAD
+
 
 Link STUDENT(TK:DH52006823 && PASS:123456)
 
@@ -21,7 +19,6 @@ Link ADMIN(TK:ADMIN1 && Pass:123456)
 
 http://frontend-ktxstuadmin.s3-website-ap-southeast-2.amazonaws.com/
 
-Link demo:https://drive.google.com/file/d/109ysf6oIPT0MZvLHy96pXflHxe31tYbE/view?usp=sharing
+Link demo giám sát tích hợp camera AI hanet:https://drive.google.com/file/d/109ysf6oIPT0MZvLHy96pXflHxe31tYbE/view?usp=sharing
 
-=======
->>>>>>> parent of 8ae6aa4 (Merge branch 'main' of https://github.com/vrain1642002/DormitorySTU)
+
