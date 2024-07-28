@@ -1,8 +1,17 @@
-DORMITORY MANAGEMENT SYSTEM INTEGRATED AI CAMERA HANET 
 
-In addition to features such as room registration, payment,feedback and management, it also includes outstanding features such as  integrated AI camera face recognition,send email,sms,AI chat bot.Deloy use aws(RDS,EC2,S3) 
+STUDENT:
+Các chức năng:
+Xem danh sách phòng,đăng kí phòng,thanh toán phí lưu trú,hóa đơn điện,gửi phản hồi ,nhận thông báo qua web và email.
+
+ADMIN
+Các chức năng:
+Xem danh sách và chỉnh sửa trạng thái hợp đồng,xem và tạo danh sách phòng,xem và tạo hóa đơn điển,nhận phản hồi và trả lời.
+
+LINK:
+Backend:https://github.com/vrain1642002/Domitory-backendapi
 
 
+<<<<<<< HEAD
 
 Link STUDENT(TK:DH52006823 && PASS:123456)
 
@@ -14,4 +23,5 @@ http://frontend-ktxstuadmin.s3-website-ap-southeast-2.amazonaws.com/
 
 Link demo:https://drive.google.com/file/d/109ysf6oIPT0MZvLHy96pXflHxe31tYbE/view?usp=sharing
 
-Link github backend:https://github.com/vrain1642002/Domitory-backendapi
+=======
+>>>>>>> parent of 8ae6aa4 (Merge branch 'main' of https://github.com/vrain1642002/DormitorySTU)
