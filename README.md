@@ -19,6 +19,8 @@ Link ADMIN(TK:ADMIN1 && Pass:123456)
 
 http://frontend-ktxstuadmin.s3-website-ap-southeast-2.amazonaws.com/
 
-Link demo giám sát tích hợp camera AI hanet:https://drive.google.com/file/d/109ysf6oIPT0MZvLHy96pXflHxe31tYbE/view?usp=sharing
+Link demo giám sát tích hợp camera AI hanet(phiên bản sau đã thay bằng dùng cloud để lưu trữ image khuôn mặt và dùng kafka để giao tiếp giữa hai service): https://drive.google.com/file/d/1W5829nNd2U9jDmo3MSXmc6W-3Ot7A0_x/view?usp=sharing
+
+Link demo thanh toán (bằng pay os,cho phép giao dịch thật,chỉ cần sử dụng CCCD để đăng ký ): https://drive.google.com/file/d/12_eatN-yhfctR2iWubdOdcTC5sxmDoxv/view?usp=sharing
 
 
